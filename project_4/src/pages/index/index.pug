@@ -1,0 +1,61 @@
+extend ../../static/layouts/main
+
+
+
+block variables
+  -
+    var title = 'Главная';
+    var page = 'index';
+
+block append styles
+  link(rel='stylesheet' href=`assets/css/${page}.css`)
+
+block append scripts
+  script(src=`assets/js/${page}.js`)
+
+block content
+  .transport
+    .transport_wrap
+      h1 перевозка грузов автотранспортом
+  .force
+    .force_wrap
+      .force_wrap-text
+        .force_wrap-text_left
+          h2 logistic force -
+          p максимальная оперативность перемещения грузов по всей России.
+        .force_wrap-text_right
+          p Контейнерные перевозки - перевозки с приминением стандартных металлических контейнеров. Такой вариант транспортировки дает возможность выполнять доставку товаров от поставщика к адресату без дополнительной перегрузки, тем самым заметно сокращая количество выполняемых промежуточных погрузочно-разгрузочных работ.
+          p В зависимости от особенностей груза, перевозчиком используются различные виды контейнеров. Для вашего удобства, наши агенты согласуют с отправителем или получателем все вопросы, связанные с отгрузкой, ускорят подачу необходимого размера контейнера для загрузки, обеспечат своевременный обмен актуальной информацией и подготовят необходимые документы.
+          a(href="#") Отправить заявку на расчёт
+  .advantages
+    .advantages_wrap
+      .advantages_wrap-text
+        h3 преимущества
+        p сотрудничества с нами
+      .advantages_wrap-row
+        .advantages_wrap-item
+          img(src="assets/img/content/main/layer8.png", alt="")
+          h4 Партнерство
+          p Прямые контакты с линиями, <br> портами и перевозчиками
+        .advantages_wrap-item
+          img(src="assets/img/content/main/layer7.png", alt="")
+          h4 Полный сервис
+          p Персональный менеджер: <br> работы по принципу одного окна
+        .advantages_wrap-item
+          img(src="assets/img/content/main/layer6.png", alt="")
+          h4 Оптимизация
+          p Готовые решения по доставке, <br> и таможенному оформлению
+      .advantages_wrap-row
+        .advantages_wrap-item
+          img(src="assets/img/content/main/layer3.png", alt="")
+          h4 Удобство
+          p Собственная online-система отслеживания <br> местонахождения и маршрута груза
+        .advantages_wrap-item
+          img(src="assets/img/content/main/layer4.png", alt="")
+          h4 Аналитика
+          p Наши логисты знают как сделать процедуру <br> перевозки оптимальной
+        .advantages_wrap-item
+          img(src="assets/img/content/main/layer5.png", alt="")
+          span Профессионализм
+          p Быстрый расчет заявок, внимательное <br> отношение к потребностям клиента
+          

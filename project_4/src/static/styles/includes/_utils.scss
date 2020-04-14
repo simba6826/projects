@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=cyrillic');
+
+.pageWrapper {
+  margin-bottom: 60px;
+}
+
+.acentColor {
+  color: $_darkish-pink;
+}
+
+.pageTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 31px;
+  font-size: 24px;
+  color: #202020;
+}
+
+.content li {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 23px;
+  font-size: 16px;
+  color: #202020;
+  position: relative;
+  padding-left: 10px !important;
+  &:before {
+    content: '•';
+    color: $_darkish-pink;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+}
+
+.container-fluid {
+  min-width: 1170px;
+  padding: 0;
+  width: 100%;
+}
+
+.container {
+  width: 1170px;
+  min-width: 1170px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.row {
+  margin: 0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.hidden_list {
+  display: none;
+}
+
+.desctop-none {
+  display: none;
+}
+
+.offsetBottom {
+  margin-bottom: 130px;
+}
+
+.block-scroll {
+  overflow: hidden !important;
+  position: fixed;
+  width: 100%;
+}
+
+.pageOffset {
+  margin-bottom: 80px;
+}
+
+.tableWrap {
+  overflow: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
+.flex-4 {
+  flex: 4;
+}
+
+.flex-5 {
+  flex: 5;
+}
+
+.flex-6 {
+  flex: 6;
+}
+
+.flex-7 {
+  flex: 7;
+}
+
+.flex-8 {
+  flex: 8;
+}
+
+.flex-9 {
+  flex: 9;
+}
+
+.flex-10 {
+  flex: 10;
+}
+
+.flex-11 {
+  flex: 11;
+}
+
+.flex-12 {
+  flex: 12;
+}
+
+.flex-15 {
+  flex: 15;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+@media (max-width: $sm) {
+  .pageWrapper {
+    margin-top: 30px;
+  }
+  .content li {
+    line-height: 17px;
+    font-size: 12px;
+  }
+}

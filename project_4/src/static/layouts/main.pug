@@ -1,0 +1,23 @@
+block includes
+  include includes/bundle
+  include ../../components/header/header
+  include ../../components/footer/footer
+block variables
+doctype html
+html(lang="ru-RU")
+  head
+    meta(charset="utf-8")
+    title #{title}
+    meta(name="viewport" content="width=device-width,initial-scale=1")
+    meta(name="keywords" content="")
+    block styles
+      link(rel="stylesheet" href="assets/css/libs.css")
+      link(rel="stylesheet" href="assets/css/main.css")
+    block headScripts
+      script(src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js")
+  body
+    +header()
+    block content
+    +footer()
+    block scripts
+      script(src='assets/js/common.js')

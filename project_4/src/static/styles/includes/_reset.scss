@@ -1,0 +1,140 @@
+html {
+  height: 100%;
+}
+
+b {
+  display: inline-block;
+}
+
+body {
+  height: 100%;
+  font-family: $baseFont;
+  font-weight: 400;
+  color: #000;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 23px;
+  font-size: 16px;
+  color: #202020;
+}
+
+h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+audio, canvas, 
+iframe, 
+img, 
+svg, 
+video {
+
+  vertical-align: middle;
+}
+
+textarea {
+  resize: none;
+}
+
+section {
+  position: relative;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: block;
+}
+
+input, select, 
+button {
+
+  outline: none !important;
+}
+
+:focus {
+  outline-style: none;
+  outline-width: 0px !important;
+  outline-color: none !important;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+audio, canvas, 
+iframe, 
+img, 
+svg, 
+video {
+
+  vertical-align: middle;
+}
+
+textarea {
+  resize: none;
+}
+
+section {
+  position: relative;
+}
+
+input, select, 
+button {
+
+  outline: none !important;
+}
+
+@media (max-width: $sm) {
+  p {
+    line-height: 17px;
+    font-size: 12px;
+  }
+  h4 {
+    line-height: 17px;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,171 @@
+$baseFont: 'Roboto', sans-serif;
+
+$trans: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+$shadow: 0px 0px 29px 0px rgba(154, 0, 0, 0.7);
+
+$xl: 1660px;
+$lg: 1390px;
+$tb: 1120px;
+$md: 768px;
+$sm: 576px;
+
+$bp: 1000px;
+
+/* Color palette */
+$_black: #000000;
+$_darkish-pink: #db2e5f;
+$_black-two: #202020;
+$_warm-grey: #9f9f9f;
+$_black-three: #353535;
+$_white: #ffffff;
+$_white-two: #f5f5f5;
+$_seafoam-blue: #6fcf97;
+$_jade-green: #27ae60;
+
+/* Text styles */
+@mixin main-title() {
+  font-family: Cuprum;
+  font-size: 36px;
+  font-weight: bold;
+}
+@mixin sectionTitle() {
+  font-family: Cuprum;
+  font-size: 36px;
+  font-weight: bold;
+}
+@mixin pageTitle() {
+  font-family: Cuprum;
+  font-size: 24px;
+  font-weight: bold;
+}
+@mixin tabCaption() {
+  font-family: Cuprum;
+  font-size: 24px;
+  font-weight: bold;
+}
+@mixin pageTitle() {
+  font-family: Cuprum;
+  font-size: 24px;
+  font-weight: bold;
+}
+@mixin tabTitle() {
+  font-family: Cuprum;
+  font-size: 24px;
+}
+@mixin price() {
+  font-family: Cuprum;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+}
+@mixin paginationDigit() {
+  font-family: Cuprum;
+  font-size: 18px;
+  font-weight: bold;
+}
+@mixin phone() {
+  font-family: Cuprum;
+  font-size: 18px;
+  font-weight: bold;
+}
+@mixin sliderDigits() {
+  font-family: Cuprum;
+  font-size: 18px;
+  color: $warm-grey;
+}
+@mixin subscribeTitle() {
+  font-family: Cuprum;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.41;
+}
+menu {
+  font-family: Cuprum;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+button {
+  font-family: Cuprum;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@mixin text() {
+  font-family: Cuprum;
+  font-size: 16px;
+}
+@mixin menuLink() {
+  font-family: Cuprum;
+  font-size: 16px;
+  line-height: 1.64;
+}
+@mixin text() {
+  font-family: Cuprum;
+  font-size: 16px;
+}
+@mixin tabCaption() {
+  font-family: Cuprum;
+  font-size: 16px;
+}
+@mixin subscribeInput() {
+  font-family: Cuprum;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+@mixin agreeText() {
+  font-family: Cuprum;
+  font-size: 15px;
+}
+label {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@mixin modelName() {
+  font-family: Cuprum;
+  font-size: 14px;
+  font-weight: bold;
+}
+@mixin copyright() {
+  font-family: Cuprum;
+  font-size: 14px;
+  font-weight: bold;
+}
+@mixin tag() {
+  font-family: Cuprum;
+  font-size: 14px;
+}
+@mixin inputText() {
+  font-family: Cuprum;
+  font-size: 14px;
+}
+@mixin oldPrice() {
+  font-family: Cuprum;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+}
+@mixin smallButton() {
+  font-family: Cuprum;
+  font-size: 12px;
+  font-weight: bold;
+}
+@mixin brandName() {
+  font-family: Cuprum;
+  font-size: 12px;
+}
+@mixin breadcrumb() {
+  font-family: Cuprum;
+  font-size: 12px;
+}

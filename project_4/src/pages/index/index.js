@@ -1,0 +1,1 @@
+var header = require('../../components/header/header');
